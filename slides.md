@@ -1,5 +1,5 @@
 ---
-title: NWP-Nachhaltigkeit-Qualität-Ethik
+title: Linux-FOSS-Meetup-Linz
 version: 1.0.0
 theme: dracula
 footer: Linux-FOSS Linz #1
