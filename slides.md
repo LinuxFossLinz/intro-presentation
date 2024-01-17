@@ -50,6 +50,9 @@ p{
     margin-bottom: 0.75em;
     width: 100%;
 }
+.spacing > * {
+    width: 100%;
+}
 
 </style>
 <div class="vert-center">
@@ -60,7 +63,8 @@ p{
 ### Robert Führicht
 <div class="spacing">
 
-Platform Engineer@uni software plus
+Platform Engineer
+@ uni software plus
 </div>
 
 **Automatic Backups using Borgmatic**
@@ -112,7 +116,7 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
+    height: 80%;
 }
 </style>
 <div class="vert-center">
@@ -120,19 +124,19 @@ h3{
 
 <div class="center">
 
-![width:250px left](./img/sponsors/alles_digital.png)
+![height:200px left](./img/sponsors/alles_digital.png)
 ### alles-digital.org
 </div>
 
 <div class="center">
 
-![width:300px left](./img/sponsors/coding_club.png)
+![height:200px left](./img/sponsors/coding_club.png)
 ### Coding Club
 </div>
 
 <div class="center">
 
-![width:300px left](./img/sponsors/grand_garage.png)
+![height:200px left](./img/sponsors/grand_garage.png)
 ### Grand Garage
 </div>
 
@@ -215,8 +219,8 @@ https://discord.gg/vxgBuVVcbt
 
 ## Photos
 
-We'd like to take photos during the event for social Media!
+We'd like to take photos during the event for Social Media.
 
-**If anyone doesn't want to be on photos, please tell us!**
+If anyone doesn't want to be on the photos, please tell us!
 
-![bg right 98%](./img/photo-tux.png)
+![bg right:50%](./img/photo-tux.png)
