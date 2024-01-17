@@ -93,7 +93,52 @@ Software-Engineer
 ---
 
 ## Sponsors
-- alles-digital.org
+
+<style scoped>
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+h3{
+    text-align: center;
+}
+.vert-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+</style>
+<div class="vert-center">
+<div class="flex">
+
+<div class="center">
+
+![width:250px left](./img/sponsors/alles_digital.png)
+### alles-digital.org
+</div>
+
+<div class="center">
+
+![width:300px left](./img/sponsors/coding_club.png)
+### Coding Club
+</div>
+
+<div class="center">
+
+![width:300px left](./img/sponsors/grand_garage.png)
+### Grand Garage
+</div>
+
+
+</div>
+</div>
 
 
 ---
