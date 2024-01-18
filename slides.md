@@ -244,3 +244,22 @@ We'd like to take photos during the event for Social Media.
 If anyone doesn't want to be on the photos, please tell us!
 
 ![bg right:50%](./img/photo-tux.png)
+
+---
+
+## Call for Speakers
+- anything Linux / FOSS related
+- beginners welcome!
+
+https://sessionize.com/linux-foss-linz-meetup/
+
+![bg right 70%](./img/i-want-you.jpg)
+
+---
+
+## Call for Hosts
+- Hosts provide the location
+- ideally: food as well
+- also talk to your employer!
+
+linuxfosslinz@proton.me
