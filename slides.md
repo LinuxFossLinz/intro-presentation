@@ -181,7 +181,7 @@ h3{
 
 <div class="center">
 
-![width:250px right](./img/discord.png)
+![width:250px right](./img/holzbauer.jpeg)
 ### Lorenz Holzbauer
 </div>
 <div class="center">
