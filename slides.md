@@ -124,12 +124,6 @@ h3{
 
 <div class="center">
 
-![height:200px left](./img/sponsors/alles_digital.png)
-### alles-digital.org
-</div>
-
-<div class="center">
-
 ![height:200px left](./img/sponsors/coding_club.png)
 ### Coding Club
 </div>
@@ -144,6 +138,33 @@ h3{
 </div>
 </div>
 
+---
+<style>
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+.image {
+	margin-right: 100px;
+}
+</style>
+
+# alles-digital.org
+<div class=flex>
+
+<!-- _backgroundColor: "#ffffff" -->
+<!-- _color: "#000000" -->
+
+<div class=image>
+
+![height:300px left](./img/sponsors/alles_digital.png)
+
+</div>
+
+Everything digital for our customers. That is our mission. Not somehow, but in the most efficient way and with the best possible
+result - a successful and sustainable digital business model.
+
+</div>
 
 ---
 
