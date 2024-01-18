@@ -150,19 +150,18 @@ h3{
 </style>
 
 # alles-digital.org
-<div class=flex>
 
 <!-- _backgroundColor: "#ffffff" -->
 <!-- _color: "#000000" -->
 
+<div class=flex>
 <div class=image>
 
 ![height:300px left](./img/sponsors/alles_digital.png)
 
 </div>
 
-Everything digital for our customers. That is our mission. Not somehow, but in the most efficient way and with the best possible
-result - a successful and sustainable digital business model.
+Everything digital for our customers. That is our mission. Not somehow, but in the most efficient way and with the best possible result - a successful and sustainable digital business model.
 
 </div>
 
