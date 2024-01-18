@@ -24,6 +24,54 @@ h1 {
 </style>
 
 ---
+
+<style scoped>
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    border-radius: 50%;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+h3{
+    text-align: center;
+}
+.vert-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+</style>
+<div class="vert-center">
+<div class="flex">
+<div class="center">
+
+![width:250px left](./img/hofer.jpeg)
+### Jakob Hofer
+</div>
+
+<div class="center">
+
+![width:250px right](./img/holzbauer.jpeg)
+### Lorenz Holzbauer
+</div>
+<div class="center">
+
+![width:250px right](./img/stenz.jpeg)
+### Michael Stenz
+</div>
+</div>
+</div>
+
+
+---
 <style scoped>
 .flex{
     display: flex;
@@ -96,6 +144,15 @@ Software-Engineer
 
 ---
 
+## Drinks
+
+- Call us so we can hold the card onto the sensor
+- Enjoy your drink!
+
+![bg right](./img/drinks_grand_garage_red.jpg)
+
+---
+
 ## Sponsors
 
 <style scoped>
@@ -163,53 +220,6 @@ h3{
 
 Everything digital for our customers. That is our mission. Not somehow, but in the most efficient way and with the best possible result - a successful and sustainable digital business model.
 
-</div>
-
----
-
-<style scoped>
-.flex{
-    display: flex;
-    justify-content: space-around;
-}
-img{
-    border-radius: 50%;
-}
-.center{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1.2rem;
-}
-h3{
-    text-align: center;
-}
-.vert-center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-}
-</style>
-<div class="vert-center">
-<div class="flex">
-<div class="center">
-
-![width:250px left](./img/hofer.jpeg)
-### Jakob Hofer
-</div>
-
-<div class="center">
-
-![width:250px right](./img/holzbauer.jpeg)
-### Lorenz Holzbauer
-</div>
-<div class="center">
-
-![width:250px right](./img/stenz.jpeg)
-### Michael Stenz
-</div>
-</div>
 </div>
 
 ---
