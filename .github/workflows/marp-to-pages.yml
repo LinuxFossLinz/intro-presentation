@@ -19,7 +19,7 @@ jobs:
         id: extract_branch
 
       - name: Copy images
-        run: mkdir build/${{steps.extract_branch.outputs.branch}} && cp -R img build/${{steps.extract_branch.outputs.branch}}/img
+        run: mkdir build && mkdir build/${{steps.extract_branch.outputs.branch}} && cp -R img build/${{steps.extract_branch.outputs.branch}}/img
 
       - name: Build presentation to HTML
         uses: docker://marpteam/marp-cli:v3.4.0
