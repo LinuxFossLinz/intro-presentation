@@ -4,9 +4,7 @@ permissions:
   pages: write
   contents: write
 
-on:
-  push:
-    branches: main
+on: push
 
 jobs:
   build-and-push:
@@ -15,20 +13,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Extract branch name
+        shell: bash
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+        id: extract_branch
+
       - name: Copy images
-        run: mkdir build && cp -R img build/img
+        run: mkdir build/${{steps.extract_branch.outputs.branch}} && cp -R img build/${{steps.extract_branch.outputs.branch}}/img
 
       - name: Build presentation to HTML
         uses: docker://marpteam/marp-cli:v3.4.0
         with:
-          args: --html --theme ./dracula/dracula.css slides.md -o build/index.html
+          args: --html --theme ./dracula/dracula.css slides.md -o build/${{steps.extract_branch.outputs.branch}}/index.html
         env:
           MARP_USER: root:root
 
       - name: Build presentation to PDF
         uses: docker://marpteam/marp-cli:v3.4.0
         with:
-          args: --theme ./dracula/dracula.css slides.md -o build/slides.pdf
+          args: --theme ./dracula/dracula.css slides.md -o build/${{steps.extract_branch.outputs.branch}}/slides.pdf
         env:
           MARP_USER: root:root
 
@@ -37,3 +40,4 @@ jobs:
         with:
           branch: gh-pages
           folder: ./build/
+          keepFiles: true
