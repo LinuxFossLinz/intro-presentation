@@ -14,7 +14,7 @@ style: |
   }
 ---
 
-# Linux-FOSS Linz #1
+# Linux-FOSS Linz #2
 
 <style scoped>
 h1 {
