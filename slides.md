@@ -42,53 +42,6 @@ img{
 h3{
     text-align: center;
 }
-.vert-center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-}
-</style>
-<div class="vert-center">
-<div class="flex">
-<div class="center">
-
-![width:250px left](./img/hofer.jpeg)
-### Jakob Hofer
-</div>
-
-<div class="center">
-
-![width:250px right](./img/holzbauer.jpeg)
-### Lorenz Holzbauer
-</div>
-<div class="center">
-
-![width:250px right](./img/stenz.jpeg)
-### Michael Stenz
-</div>
-</div>
-</div>
-
-
----
-<style scoped>
-.flex{
-    display: flex;
-    justify-content: space-around;
-}
-img{
-    border-radius: 50%;
-}
-.center{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1.2rem;
-}
-h3{
-    text-align: center;
-}
 p{
     text-align: center;
     width: 90%;
@@ -127,6 +80,53 @@ Software Developer @ Miba AG
 </div>
 
 **The WIIZ Story: Self-Hosting for Freedom**
+</div>
+</div>
+</div>
+
+---
+
+<style scoped>
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    border-radius: 50%;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+h3{
+    text-align: center;
+}
+.vert-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+</style>
+<div class="vert-center">
+<div class="flex">
+<div class="center">
+
+![width:250px left](./img/hofer.jpeg)
+### Jakob Hofer
+</div>
+
+<div class="center">
+
+![width:250px right](./img/holzbauer.jpeg)
+### Lorenz Holzbauer
+</div>
+<div class="center">
+
+![width:250px right](./img/stenz.jpeg)
+### Michael Stenz
 </div>
 </div>
 </div>
